@@ -1,0 +1,79 @@
+
+body {
+    background-color: aliceblue;
+}
+.mapa, .conceptos, .diseño-personajes, .jugabilidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(43, 40, 245);
+}
+.mapa h2 {
+  text-align: center;
+}
+.conceptos div {
+    display: flex;
+    flex-wrap: wrap;
+}
+.conceptos img {
+    width: 300px;
+    height: 300px;
+    margin: 4px 4px;
+}
+
+.diseño-personajes div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.diseño-personajes img{
+    width: 450px;
+    height: 400px;
+    margin: 0 4px;
+}
+
+.jugabilidad div {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.jugabilidad .scenary {
+    width: 90%;
+    height: 500px;
+}
+.jugabilidad .warrior {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 25%;
+}
+
+.jugabilidad .troll1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 24%;
+    top: 35%;
+}
+.jugabilidad .troll2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 35%;
+    top: 35%;
+}
+.jugabilidad .troll3 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 30%;
+    top: 20%;
+}
+
